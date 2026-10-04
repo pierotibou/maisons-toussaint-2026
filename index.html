@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maisons Toussaint 2026 — comparatif</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --card: #fff; --ink: #1f2328; --muted: #6b7280;
+    --line: #e5e3de; --good: #1a7f37; --good-bg: #e8f5ec;
+    --bad: #b42318; --bad-bg: #fdecea; --warn: #9a6700; --warn-bg: #fff6dd;
+    --accent: #2f5bd3;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  h2 { font-size: 20px; margin: 40px 0 14px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+  .card img { width: 100%; height: 170px; object-fit: cover; display: block; background: #ddd; }
+  .card .body { padding: 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card h3 { margin: 0; font-size: 17px; }
+  .loc { color: var(--muted); font-size: 14px; margin: 0; }
+  .price { font-size: 26px; font-weight: 700; margin: 4px 0 0; }
+  .price small { font-size: 13px; font-weight: 400; color: var(--muted); }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .tag { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: #eef1f6; }
+  .card a.btn { margin-top: auto; text-align: center; padding: 10px; border-radius: 10px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+  .card a.btn:hover { opacity: .9; }
+  .drive { margin: 0; font-size: 14px; font-weight: 600; }
+  .drive small { font-weight: 400; color: var(--muted); }
+  details.calc { font-size: 13px; color: var(--muted); background: #faf9f7; border-radius: 8px; padding: 6px 10px; }
+  details.calc summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+  details.calc p { margin: 6px 0 0; }
+  .verdict { font-size: 14px; color: var(--muted); }
+
+  .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+  table { border-collapse: collapse; width: 100%; min-width: 820px; font-size: 14.5px; }
+  th, td { padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+  thead th { background: #faf9f7; font-size: 15px; position: sticky; top: 0; }
+  thead th a { color: var(--accent); text-decoration: none; }
+  tbody th { width: 150px; color: var(--muted); font-weight: 600; white-space: nowrap; }
+  tr:last-child td, tr:last-child th { border-bottom: none; }
+  .ok { color: var(--good); background: var(--good-bg); padding: 2px 8px; border-radius: 6px; font-weight: 600; white-space: nowrap; }
+  .ko { color: var(--bad); background: var(--bad-bg); padding: 2px 8px; border-radius: 6px; font-weight: 600; white-space: nowrap; }
+  .wa { color: var(--warn); background: var(--warn-bg); padding: 2px 8px; border-radius: 6px; font-weight: 600; white-space: nowrap; }
+
+  .note { background: var(--warn-bg); border: 1px solid #f0d78a; border-radius: 12px; padding: 14px 16px; font-size: 14.5px; margin-top: 18px; }
+  ul.take { padding-left: 20px; margin: 0; }
+  ul.take li { margin-bottom: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🏡 Maisons pour la Toussaint</h1>
+  <p class="sub">Du vendredi 30 octobre au dimanche 1<sup>er</sup> novembre 2026 · 2 nuits · 6 adultes + 6 enfants</p>
+
+  <div class="cards">
+    <div class="card">
+      <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI5OTI1MzI=/original/75245013-71f9-4262-8c2e-009407a5d91f.jpeg" alt="Les Marcassins">
+      <div class="body">
+        <h3>Les Marcassins</h3>
+        <p class="loc">Marcilly-en-Gault · Sologne (41) · Airbnb</p>
+        <p class="drive">🚗 189 km · ~2 h 20 <small>depuis Bois-Colombes</small></p>
+        <p class="price">562 € <small>total, taxes incluses</small></p>
+        <details class="calc"><summary>Comment c'est calculé ?</summary><p><b>Prix :</b> détail affiché par Airbnb pour nos dates et 12 voyageurs : 2 nuits × 277,74 € = 555,47 € + 6,84 € de taxes = <b>562,31 €</b>. Aucun frais de ménage ni frais de service dans le détail.</p><p><b>Distance :</b> Route calculée avec OSRM (OpenStreetMap), du centre de Bois-Colombes au centre du village, sans trafic.</p></details>
+        <div class="tags"><span class="tag">⚽ Babyfoot</span><span class="tag">🏓 Ping-pong</span><span class="tag">🤸 Trampoline</span><span class="tag">🔥 Cheminée</span><span class="tag">⭐ 4,8 (255 avis)</span></div>
+        <p class="verdict">Le moins cher, mais il faut apporter draps et serviettes pour 12.</p>
+        <a class="btn" href="https://www.airbnb.fr/rooms/12992532?check_in=2026-10-30&check_out=2026-11-01&adults=6&children=6" target="_blank">Voir l'annonce →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.gites-de-france.com/sites/default/files/styles/facebook_1200x630/public/images/349087/349087-0_H28G015580_5d0746bbe5ce2_828c5847b2fd3f062b4107a1f7007f73.jpg?itok=MYlg45zp" alt="Gîte de la Gravonnette">
+      <div class="body">
+        <h3>Gîte de la Gravonnette</h3>
+        <p class="loc">Courville-sur-Eure · près de Chartres (28) · Gîtes de France</p>
+        <p class="drive">🚗 117 km · ~1 h 40 <small>depuis Bois-Colombes</small></p>
+        <p class="price">667 € <small>tout compris (+ taxe de séjour)</small></p>
+        <details class="calc"><summary>Comment c'est calculé ?</summary><p><b>Prix :</b> montant affiché par Gîtes de France pour nos dates et 12 personnes : <b>666,68 €</b>. Il comprend le ménage, les draps et les charges. Seule la taxe de séjour n'est pas incluse.</p><p><b>Distance :</b> Route calculée avec OSRM (OpenStreetMap), du centre de Bois-Colombes au centre du village, sans trafic.</p></details>
+        <div class="tags"><span class="tag">⚽ Babyfoot</span><span class="tag">🎲 Jeux de société</span><span class="tag">👶 Équipement bébé</span><span class="tag">🛏️ Lits faits</span></div>
+        <p class="verdict">Zéro intendance, commerces et gare à 500 m. La plus petite (136 m², 4 chambres).</p>
+        <a class="btn" href="https://www.gites-de-france.com/fr/centre-val-de-loire/eure-et-loir/gite-de-la-gravonnette-h28g015580?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">Voir l'annonce →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.gites-de-france.com/sites/default/files/styles/facebook_1200x630/public/images/477880/477880-0_1546_09abf5dd982e8c781d7243719e3369c5.jpg?itok=PY43ngcb" alt="La maison des six tilleuls">
+      <div class="body">
+        <h3>La maison des six tilleuls</h3>
+        <p class="loc">Grand-Camp · près de Bernay (27) · Gîtes de France</p>
+        <p class="drive">🚗 184 km · ~2 h 10 <small>depuis Bois-Colombes</small></p>
+        <p class="price">872 € <small>752 € + 120 € ménage (option)</small></p>
+        <details class="calc"><summary>Comment c'est calculé ?</summary><p><b>Prix :</b> prix affiché par Gîtes de France pour nos dates et 12 personnes : <b>752 €</b>, draps et charges inclus. Le ménage de fin de séjour n'est pas inclus : on ajoute l'option à <b>120 €</b> indiquée sur l'annonce, soit <b>872 €</b>.</p><p><b>Distance :</b> Route calculée avec OSRM (OpenStreetMap), du centre de Bois-Colombes au centre du village, sans trafic.</p></details>
+        <div class="tags"><span class="tag">🎹 Piano</span><span class="tag">🎯 Fléchettes</span><span class="tag">🛝 Portique / toboggan</span><span class="tag">🏸 Badminton, mölkky</span></div>
+        <p class="verdict">La plus grande (222 m²) et plein de jeux. La piscine sera fermée (ouverte jusqu'au 15 oct.).</p>
+        <a class="btn" href="https://www.gites-de-france.com/fr/normandie/eure/la-maison-des-six-tilleuls-27g1546?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">Voir l'annonce →</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://www.gites-de-france.com/sites/default/files/styles/facebook_1200x630/public/images/475963/475963-0_1531_23a456874fb859ab5ebd567e628d0054.jpg?itok=ZBuae-PR" alt="Les Oliviers">
+      <div class="body">
+        <h3>Les Oliviers</h3>
+        <p class="loc">Amfreville-Saint-Amand (27) · Gîtes de France</p>
+        <p class="drive">🚗 117 km · ~1 h 35 <small>depuis Bois-Colombes</small></p>
+        <p class="price">900 € <small>tout compris (ménage inclus)</small></p>
+        <details class="calc"><summary>Comment c'est calculé ?</summary><p><b>Prix :</b> prix affiché par Gîtes de France pour nos dates et 12 personnes : <b>900 €</b>. Formule « tout compris » : ménage de fin de séjour, draps, linge et charges inclus d'après l'annonce.</p><p><b>Distance :</b> Route calculée avec OSRM (OpenStreetMap), du centre de Bois-Colombes au centre du village, sans trafic.</p></details>
+        <div class="tags"><span class="tag">🛁 Jacuzzi 6 places</span><span class="tag">🔥 Cheminée</span><span class="tag">🎣 Étang</span><span class="tag">⭐ 5/5 (2 avis)</span></div>
+        <p class="verdict">La plus confortable : tout inclus, 6 chambres, spa dehors toute l'année.</p>
+        <a class="btn" href="https://www.gites-de-france.com/fr/normandie/eure/les-oliviers-27g1531?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">Voir l'annonce →</a>
+      </div>
+    </div>
+  </div>
+
+  <h2>Comparatif détaillé</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th><a href="https://www.airbnb.fr/rooms/12992532?check_in=2026-10-30&check_out=2026-11-01&adults=6&children=6" target="_blank">Les Marcassins ↗</a></th>
+          <th><a href="https://www.gites-de-france.com/fr/centre-val-de-loire/eure-et-loir/gite-de-la-gravonnette-h28g015580?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">La Gravonnette ↗</a></th>
+          <th><a href="https://www.gites-de-france.com/fr/normandie/eure/la-maison-des-six-tilleuls-27g1546?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">Six tilleuls ↗</a></th>
+          <th><a href="https://www.gites-de-france.com/fr/normandie/eure/les-oliviers-27g1531?from=2026-10-30&to=2026-11-01&adults=6&children=6&infants=0" target="_blank">Les Oliviers ↗</a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Prix (2 nuits)</th>
+          <td><b>562 €</b><br>555 € + 7 € taxes</td>
+          <td><b>667 €</b><br>+ taxe de séjour</td>
+          <td><b>872 €</b><br>752 € + 120 € ménage</td>
+          <td><b>900 €</b><br>tout compris</td>
+        </tr>
+        <tr>
+          <th>Surface / chambres</th>
+          <td>m² non indiqué · 5 ch. · 8 lits · 2 SDB · parc de 2 ha</td>
+          <td>136 m² · 4 ch. · 2 salles d'eau</td>
+          <td>222 m² · 5 ch. · 3 SDB</td>
+          <td>200 m² · 6 ch. · 2 salles d'eau</td>
+        </tr>
+        <tr>
+          <th>Équipements spéciaux</th>
+          <td>Babyfoot + ping-pong (dépendance), grand trampoline, cheminée</td>
+          <td>Babyfoot, jeux de société, équipement bébé (lit, chaise haute, table à langer)</td>
+          <td>Piano, fléchettes, jeux de société, hamacs, portique/toboggan, badminton, mölkky, mikado géant. Piscine chauffée <span class="ko">fermée après le 15/10</span></td>
+          <td><b>Jacuzzi extérieur 6 places</b> (toute l'année), cheminée électrique, étang de pêche</td>
+        </tr>
+        <tr>
+          <th>Draps &amp; serviettes</th>
+          <td><span class="ko">À apporter</span><br>housses, draps housses, taies, serviettes</td>
+          <td><span class="ok">Fournis</span><br>lits faits à l'arrivée</td>
+          <td><span class="ok">Fournis</span></td>
+          <td><span class="ok">Fournis</span></td>
+        </tr>
+        <tr>
+          <th>Ménage fin de séjour</th>
+          <td><span class="wa">Pas de frais facturés</span><br>non précisé dans l'annonce</td>
+          <td><span class="ok">Inclus</span></td>
+          <td><span class="ko">+120 €</span></td>
+          <td><span class="ok">Inclus</span></td>
+        </tr>
+        <tr>
+          <th>Caution</th>
+          <td>Aucune (Airbnb)</td>
+          <td>700 €</td>
+          <td>1 000 €</td>
+          <td>800 €</td>
+        </tr>
+        <tr>
+          <th>Avis</th>
+          <td>⭐ 4,8 · 255 avis</td>
+          <td>⭐ 4,3 · 3 avis</td>
+          <td>Nouveau, pas d'avis</td>
+          <td>⭐ 5 · 2 avis</td>
+        </tr>
+        <tr>
+          <th>Route depuis Bois-Colombes</th>
+          <td><b>189 km · ~2 h 20</b></td>
+          <td><b>117 km · ~1 h 40</b></td>
+          <td><b>184 km · ~2 h 10</b></td>
+          <td><b>117 km · ~1 h 35</b></td>
+        </tr>
+        <tr>
+          <th>Situation</th>
+          <td>Sologne, à 1 km du village · Chambord et Cheverny à 40 km · &lt; 2 h de Paris</td>
+          <td>20 km de Chartres · gare, commerces, resto à 500 m</td>
+          <td>Normandie, en pleine campagne · Bernay à 8 km</td>
+          <td>Normandie, vallée calme · resto à 3 km</td>
+        </tr>
+        <tr>
+          <th>Annulation</th>
+          <td>Gratuite avant le 29/10</td>
+          <td colspan="3">Selon conditions Gîtes de France</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="sub" style="margin-top:12px;font-size:13px">🚗 Temps de route estimés sans trafic (OpenStreetMap), jusqu'au centre du village. Un vendredi soir de départ en vacances, prévoir plus.</p>
+
+  <h2>En bref</h2>
+  <ul class="take">
+    <li><b>Le moins cher :</b> Les Marcassins, si on veut bien apporter le linge pour 12. C'est aussi la plus loin (~2 h 20).</li>
+    <li><b>Le plus simple :</b> La Gravonnette : tout compris, lits faits, et l'une des plus proches (~1 h 40), mais la plus petite.</li>
+    <li><b>Le plus confortable :</b> Les Oliviers (jacuzzi, tout inclus) et la plus proche (~1 h 35), pour 900 €, seulement 28 € de plus que les Six tilleuls avec ménage.</li>
+    <li><b>Six tilleuls :</b> la plus grande et superbe pour les jeux, mais la piscine (son gros atout) sera fermée et le ménage est en plus (872 € au total).</li>
+  </ul>
+</div>
+</body>
+</html>
